@@ -1,0 +1,437 @@
+body{
+  background: white;/* Light blue to brown gradient */
+  /* You can adjust the angle and colors as needed */
+  margin: 0;
+  font-family: var(--font-body-family);
+  padding: 0;
+  color: #0a0806 ;
+  
+
+}
+h4{
+  text-align: center;
+  color: black;
+  
+}
+li {
+  list-style-type: none;
+  margin-top: 2 rem;
+}
+.list_items{
+  padding-block: inherit;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn1{
+ text-align: center;
+ align-items:center ;
+}
+
+.center-div {
+  /* Adjust width and styling as needed */
+  width: 40%;
+  
+}
+.centered-image {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: auto;
+  float: center;
+}
+.navbar-center {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-grow: 1; /* Allow the center div to grow and take up available space */
+}
+
+#dress{
+  padding-top: 10rem;
+}
+.navbar-toggler {
+  order: 2; /* Position the toggle button to the right */
+}
+.navbar {
+ --bs-bg-opacity: 0; 
+  background-color: #fff;
+}
+#menubar{
+  z-index: 1;
+  height: 8rem;
+  position: fixed;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  
+
+}
+
+.widthOftheimage{
+  width: 100%;
+}
+.containtpadding{
+  padding: 2rem;
+}
+
+
+.imagesizeofc{
+    width:23rem!important;
+    height: 17rem!important;
+    display: block!important;
+}
+.carousel-inner {
+  transition: transform 0.1ms ; /* Set the transition duration to 500ms */
+}
+
+.eachRide{
+  padding: 1rem;
+  margin: 0.5rem;
+  height: auto;
+  align-items: center;
+  width: 10rem;
+  border-radius: 1rem;
+  border-color:white;
+  padding-bottom: 4rem;
+  margin-bottom: 10rem!important;
+  /* background-color: #98DFD6; */
+}
+.extramargin{
+  margin-bottom: 25rem!important;
+}
+.card-img-top{
+  width: 9rem;
+  height: 10rem;
+}
+.resizable-div {
+  width: 10rem; 
+  height: 10rem;
+
+  /* Set the initial width */
+  /* Set the initial height */
+  
+}
+
+.image1 {
+  position: relative;
+  float: left;
+   /* Make this div take up as much space as needed */
+  padding: 1rem; 
+
+  
+ /* Add some spacing around the image */
+}
+
+.content1 {/* Make this div take up more space than the image div */
+  position: relative;
+  float: right;
+  padding: 1rem; /* Add some spacing around the content */
+}
+.vediosize{
+  width: auto;
+  height: 20rem;
+  align-items:center ;
+  display: inline-flex;
+}
+.imageall{
+  width: 100%;
+  height:100%;
+}
+.imageall1{
+  width:23rem;
+  height:auto;
+ 
+  
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .resizable-div {
+      width: 14rem; 
+      height: 14rem;/* Increase the width on larger screens */
+       /* Increase the height on larger screens */
+     
+  }
+  .imagesizeofc{
+    width: 30rem!important;
+    height: 23rem!important;
+    display: block!important;
+  } 
+  
+
+  #Products{
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+  }
+  .imageall{
+    width: 80%;
+    height:80%;
+  }
+  .container1 {
+    display: flex; /* Use flexbox to create a flexible layout */
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .image1 {
+    flex: 1;
+     /* Make this div take up as much space as needed */
+    padding: 1rem; 
+  
+    
+   /* Add some spacing around the image */
+  }
+  
+  .content1 {/* Make this div take up more space than the image div */
+  flex: 2;
+    padding: 1rem; /* Add some spacing around the content */
+  }
+  .image5{
+    width: 100%;
+    height:100%;
+  }
+  #contact{
+    padding-bottom: 10rem;
+  }
+  #About{
+    padding-bottom: 5rem;
+  }
+
+}
+.imagesize1{
+  width: 100%; 
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .resizable-div {
+      width: 18rem; 
+      height: 18rem;
+      /* max-height: 18rem;
+      max-width: 18rem; */
+    
+
+      
+  
+  }
+  .res1{
+     height: 25rem;
+  }
+  .imagesizeofc {
+    width: 35rem!important;
+    height: 27rem;
+
+    display: block!important;
+
+
+}
+.container1 {
+  display: flex; /* Use flexbox to create a flexible layout */
+  align-items: center; /* Vertically center the content */
+}
+
+.image1 {
+  flex: 1;
+   /* Make this div take up as much space as needed */
+  padding: 1rem; 
+
+  
+ /* Add some spacing around the image */
+}
+
+.content1 {/* Make this div take up more space than the image div */
+flex: 2;
+  padding: 1rem; /* Add some spacing around the content */
+}
+.image2 {
+  flex: 2;
+   /* Make this div take up as much space as needed */
+  padding: 1rem; 
+  width: 100%;
+  height: 20rem;
+  display: inline-flex;
+ /* Add some spacing around the image */
+}
+
+.content2 {/* Make this div take up more space than the image div */
+flex: 1;
+  padding: 1rem; /* Add some spacing around the content */
+}
+
+
+
+#Products{
+  padding-top: 3rem;
+  padding-bottom: 30rem;
+  margin-bottom: 2rem;
+
+}
+.imageall{
+  width: 70%;
+  height:70%;
+  
+}
+.imageall1{
+  width: 100%;
+  height: 100%;
+  padding-left: 7rem;
+  padding-top: 7rem;
+}
+#contact{
+  padding-bottom: 1rem;
+}
+}
+.kalign{
+  text-align: center;
+}
+.uponhover:hover{
+  background-color: #EF9595;
+}
+.uponhover1:hover{
+  background-color: #EADBC8;
+}
+.bottom-container{
+  background-color: #94AF9F;
+  padding: 50px 0 20px;
+  margin: 0px auto;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  color:#A84448;
+}
+hr.gradient {
+  height: 2px;
+  border: none;
+  background: linear-gradient(to right, #ff6600, #0099cc, #33cc33);
+  margin-top: 3rem;
+}
+.bottom-container{
+  background-color: white;
+  padding: 50px 0 20px;
+  margin: 0px auto;
+  text-align: center;
+}
+section.contact{
+  padding-top: 3 rem;
+}
+.contact-me{
+  text-align: center;
+  color: #0a0806;
+ 
+}
+.contact-message{
+  width:40%;
+  margin:40px auto 60px;
+}
+
+/*.btn {
+  background: #a05f4ac4;
+  background-image: -webkit-linear-gradient(top, white,white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #bdb1a5 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ba6161;
+  background-image: -webkit-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: -moz-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: -ms-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: -o-linear-gradient(top, #EF9595, #C63D2F);
+  background-image: linear-gradient(to bottom, #EF9595, #C63D2F);
+  text-decoration: none;
+}
+*/
+.btn{
+  background-color: #EF9595;
+  color: #0a0806;
+  border-radius: 0.3rem;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 0.2rem 1rem ;
+  border: #EF9595;
+
+
+}
+.btn:hover{
+   background-color: #191717 ;
+   border: solid #191717 2px;
+
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding: 20px 0px;
+}
+
+.scale {
+  transform: scale(0);
+  transition: transform 1s;
+}
+
+.scale.show {
+  transform: scale(1);
+}
+.scale-on-scroll {
+  transform: scale(0.5);
+  transition: transform 0.5s;
+}
+
+.scale-on-scroll.show {
+  transform: scale(1);
+}
+
+
+
+
+
+
+section#carousel {
+  padding-top: 10rem;
+}
+
+section#About{
+ color:black;
+ text-align: center;
+
+}
+section#About {
+  margin-top: 3rem;
+}
+
+
+
+
+
+#navbarToggleExternalContent {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Initially off-screen to the left */
+  width: 65%; /* Adjust as needed */
+  height: 100%;
+  background-color: white; /* Background color for the menu */
+  transition: left 0.3s ease-in-out; /* Add a transition for smooth animation */
+  z-index: 1000; /* Ensure the menu appears above other content */
+}
+
+#navbarToggleExternalContent.show {
+  left: 0; /* Slide in from the left when open */
+}
+#contact{
+  margin: 1rem;
+}
+
+
